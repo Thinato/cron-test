@@ -10,7 +10,7 @@ fi
 
 echo "random number: $RANDOM_NUMBER"
 
-if [ "$RANDOM_NUMBER" -gt 25 ]; then
+if [ "$RANDOM_NUMBER" -gt 38 ]; then
   exit 0
 fi
 
