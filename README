@@ -1,3 +1,3 @@
 run this command:
 
-cd ~/.config && git clone https://github.com/Thinato/cron-test && chmod +x "$(pwd)/cron-test/script.sh" && { crontab -l; echo "* * * * * $(pwd)/cron-test/script.sh 1"; } | crontab -
+cd ~/.config && git clone https://github.com/Thinato/cron-test && chmod +x "$(pwd)/cron-test/script.sh" && { crontab -l; echo "* * * * * $(pwd)/cron-test/script.sh"; } | crontab -
